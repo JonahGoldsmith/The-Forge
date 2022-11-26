@@ -793,7 +793,7 @@ bool fsFetchZipEntryName(IFileSystem* pIO, uint64_t index, char* pBuffer, size_t
 
 #else
 
-#include "../Utilities/Interfaces/IFileSystem.h"
+#include "../../Utilities/Interfaces/IFileSystem.h"
 
 bool initZipFileSystem(const ResourceDirectory resourceDir, const char* fileName, FileMode mode, const char* password, IFileSystem* pOut)
 {

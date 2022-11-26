@@ -30,9 +30,9 @@ distribution.
 #include <cstring>
 #include <cstdarg>
 
-#include "Common_3/Utilities/Interfaces/IFileSystem.h"
+#include "../../../../Utilities/Interfaces/IFileSystem.h"
 #define IMEMORY_FROM_HEADER
-#include "Common_3/Utilities/Interfaces/IMemory.h" //NOTE: this should be the last include in a .cpp
+#include "../../../../Utilities/Interfaces/IMemory.h" //NOTE: this should be the last include in a .cpp
 
 /* 
    TODO: intern strings instead of allocation.
